@@ -1,0 +1,10 @@
+PUT http://localhost:3000/635efd384e1b1b3474e65e52
+Content-Type: application/json
+
+{
+  "nombre": "3 Pepito",
+  "nacimiento": "01/01/2020",
+  "visitaTipo": "vacunas",
+  "proximaVisita": "02/02/2022",
+  "controlPienso": "A finales de mes, comprar pienso."
+}

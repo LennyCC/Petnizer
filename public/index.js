@@ -11,20 +11,20 @@ const addbutton = document.querySelector('add');
 
 addbutton.addEventListener('click', (e) => {
   
-    nombre: nombre.value, 
-    nacimiento: nacimiento.value,
+    nombre: nombre.value;
+    nacimiento: nacimiento.value;
 
     fetch('/public/index.html', {
       method: POST, 
-      headers {
+      headers:
+      {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(
      {
         nombre,
-        nacimiento
-      });
+        nacimiento,
+      }));
     
     })
   
-})

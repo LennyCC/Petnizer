@@ -1,0 +1,10 @@
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+  "nombre": "Pepito",
+  "nacimiento": "01/01/2020",
+  "visitaTipo": "vacunas",
+  "proximaVisita": "02/02/2022",
+  "controlPienso": "A finales de mes, comprar pienso."
+}
